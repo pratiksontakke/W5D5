@@ -1,0 +1,9 @@
+pandas
+numpy
+sqlalchemy
+langchain
+langchain-community
+langchain-openai
+openai
+tqdm
+chromadb

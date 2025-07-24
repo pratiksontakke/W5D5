@@ -1,0 +1,39 @@
+---
+alwaysApply: true
+---
+## Technical Requirements
+
+### Scalable Data Management
+- Employ semantic indexing to enable the agent to select relevant tables from a large schema (50+ tables).
+- Develop a query planner that determines the most efficient join paths for multi-table queries.
+- Implement a multi-step query generation process, validating each step for correctness.
+- Use statistical sampling and pagination to manage large query results.
+- Integrate and extend LangChain's `SQLDatabaseToolkit` for advanced query handling.
+- Add schema and query result caching to reduce latency and database load.
+- Utilize connection pooling and monitor query performance.
+- Analyze query complexity and apply automatic optimizations where possible.
+
+---
+
+## Example User Queries
+
+- "Which platform currently offers the lowest price for onions?"
+- "List products with discounts of 30% or more on Blinkit."
+- "Compare fruit prices between Zepto and Instamart."
+- "Find the best deals for a grocery list totaling ₹1000."
+
+---
+
+## Deliverables
+
+- A functional SQL agent accessible via a web interface.
+- An optimized, multi-table database schema for cross-platform product data.
+- Advanced query generation logic with intelligent table and join selection.
+- Basic security features, including rate limiting.
+- Clear architecture documentation explaining system design and components.
+
+---
+
+## Submission
+
+- Provide a link to your GitHub repository containing the complete project and documentation. 

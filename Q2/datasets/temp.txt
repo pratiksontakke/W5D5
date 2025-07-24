@@ -1,0 +1,14 @@
+#!/bin/bash
+curl -L -o brazilian-ecommerce.zip\
+  https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce
+
+
+  #!/bin/bash
+curl -L -o amazon-sales-dataset.zip\
+  https://www.kaggle.com/api/v1/datasets/download/karkavelrajaj/amazon-sales-dataset
+
+
+
+  #!/bin/bash
+curl -L -o bigbasket-entire-product-list-28k-datapoints.zip\
+  https://www.kaggle.com/api/v1/datasets/download/surajjha101/bigbasket-entire-product-list-28k-datapoints
