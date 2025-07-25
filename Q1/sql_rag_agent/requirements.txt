@@ -1,0 +1,12 @@
+langchain-openai
+langchain
+chromadb
+faiss-cpu
+pandas
+python-dotenv
+tiktoken
+sqlalchemy
+langchain-chroma 
+langchain-community 
+langchain-openai
+streamlit
